@@ -9,13 +9,7 @@
 /* Begin PBXBuildFile section */
 		7EC8BC11223FACF300EAC5A2 /* Sensei.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC8BC0F223FACF300EAC5A2 /* Sensei.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EC8BC21223FD9DB00EAC5A2 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC18223FD9DB00EAC5A2 /* ViewControllerExtension.swift */; };
-		7EC8BC22223FD9DB00EAC5A2 /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC19223FD9DB00EAC5A2 /* NumberExtensions.swift */; };
-		7EC8BC23223FD9DB00EAC5A2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1A223FD9DB00EAC5A2 /* ViewExtension.swift */; };
-		7EC8BC24223FD9DB00EAC5A2 /* CBPeripheralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1B223FD9DB00EAC5A2 /* CBPeripheralExtension.swift */; };
-		7EC8BC25223FD9DB00EAC5A2 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1C223FD9DB00EAC5A2 /* DataExtension.swift */; };
-		7EC8BC26223FD9DB00EAC5A2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1D223FD9DB00EAC5A2 /* StringExtension.swift */; };
 		7EC8BC27223FD9DB00EAC5A2 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1E223FD9DB00EAC5A2 /* TextFieldExtension.swift */; };
-		7EC8BC28223FD9DB00EAC5A2 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC1F223FD9DB00EAC5A2 /* LabelExtension.swift */; };
 		7EC8BC29223FD9DB00EAC5A2 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BC20223FD9DB00EAC5A2 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,13 +18,7 @@
 		7EC8BC0F223FACF300EAC5A2 /* Sensei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensei.h; sourceTree = "<group>"; };
 		7EC8BC10223FACF300EAC5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC8BC18223FD9DB00EAC5A2 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
-		7EC8BC19223FD9DB00EAC5A2 /* NumberExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
-		7EC8BC1A223FD9DB00EAC5A2 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		7EC8BC1B223FD9DB00EAC5A2 /* CBPeripheralExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPeripheralExtension.swift; sourceTree = "<group>"; };
-		7EC8BC1C223FD9DB00EAC5A2 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
-		7EC8BC1D223FD9DB00EAC5A2 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		7EC8BC1E223FD9DB00EAC5A2 /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
-		7EC8BC1F223FD9DB00EAC5A2 /* LabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
 		7EC8BC20223FD9DB00EAC5A2 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,13 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7EC8BC18223FD9DB00EAC5A2 /* ViewControllerExtension.swift */,
-				7EC8BC19223FD9DB00EAC5A2 /* NumberExtensions.swift */,
-				7EC8BC1A223FD9DB00EAC5A2 /* ViewExtension.swift */,
-				7EC8BC1B223FD9DB00EAC5A2 /* CBPeripheralExtension.swift */,
-				7EC8BC1C223FD9DB00EAC5A2 /* DataExtension.swift */,
-				7EC8BC1D223FD9DB00EAC5A2 /* StringExtension.swift */,
 				7EC8BC1E223FD9DB00EAC5A2 /* TextFieldExtension.swift */,
-				7EC8BC1F223FD9DB00EAC5A2 /* LabelExtension.swift */,
 				7EC8BC20223FD9DB00EAC5A2 /* DateExtension.swift */,
 			);
 			path = Extensions;
@@ -165,15 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC8BC24223FD9DB00EAC5A2 /* CBPeripheralExtension.swift in Sources */,
-				7EC8BC23223FD9DB00EAC5A2 /* ViewExtension.swift in Sources */,
-				7EC8BC26223FD9DB00EAC5A2 /* StringExtension.swift in Sources */,
 				7EC8BC27223FD9DB00EAC5A2 /* TextFieldExtension.swift in Sources */,
 				7EC8BC29223FD9DB00EAC5A2 /* DateExtension.swift in Sources */,
-				7EC8BC28223FD9DB00EAC5A2 /* LabelExtension.swift in Sources */,
-				7EC8BC22223FD9DB00EAC5A2 /* NumberExtensions.swift in Sources */,
 				7EC8BC21223FD9DB00EAC5A2 /* ViewControllerExtension.swift in Sources */,
-				7EC8BC25223FD9DB00EAC5A2 /* DataExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

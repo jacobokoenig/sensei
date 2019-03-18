@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Sensei'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A suite of extensions and helper methods to make life in Swift easier.'
  
   s.description      = <<-DESC
@@ -18,4 +18,6 @@ A suite of extensions and helper methods to make life in Swift easier.
 
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
+  s.swift_version = '4.2'
+  
 end
