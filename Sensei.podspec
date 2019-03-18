@@ -13,7 +13,9 @@ A suite of extensions and helper methods to make life in Swift easier.
   s.source           = { :git => 'https://github.com/jacobokoenig/sensei.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Sensei/*.{swift}'
- 
-  s.resources = 'Sensei/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+
+  s.source_files = 'Sensei/**/*.{swift}'
+
+#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
 end
